@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Red-Social</title>
+</head>
+<body>
+  <div class="menu" id="menuDiv">
+    <h1>Red Social</h1>
+    <form id="menuForm">
+        <label for="menu">Choose an option:</label>
+        <select id="menu" name="menu">
+            <option value="new-User">New User</option>
+            <option value="User">User</option>
+        </select>
+        <button type="submit" >Send</button>
+    </form>
+  </div>
+
+  <div class="container hidden" id="containerDiv" >
+      <h2>NEW-USER</h2>
+      <form id="select-enter">
+          <label for="name_User">Name-User</label>
+          <input type="text" id="name_User" placeholder="Enter user">
+          <label for="password">Enter your password</label>
+          <input type="password" id="password" placeholder="*******" autocomplete="current-password">
+          <input type="submit" value="Submit" id="submit name-submit">
+          <button id="back">Back</button>
+      </form>
+  </div>
+
+  <div class="user_open" id="user_open">
+      <h2>Validation User</h2>
+      <form id="search_user">
+          <label for="value">Enter you User</label>
+          <input type="text" id="value" placeholder="Enter_user">
+          <label for="password_validate">Enter Password</label>
+          <input type="password" id="password_validate" placeholder="******" >
+          <input type="submit" value="submit" id="submit_validate">
+          <button id="back_two">Back</button>
+      </form>
+
+  </div>
+
+<script src="scripts.js"></script>
+</body>
+
+</html>
